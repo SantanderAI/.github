@@ -121,3 +121,15 @@ Maintainer is the decision authority, with appeal to the OSPO Lead.
 This document is amended by PR with OSPO Lead approval. Material changes
 (roles, SLAs, gates) require additional Legal Advisor review and a 7-day
 comment window before merge.
+
+## 10. Current contacts
+
+The roles defined in §2 are intentionally abstract — the same individual or team may cover several of them at a given time, and assignments evolve. For external communication, all role-related matters should be directed to the SantanderAI Open Source Programme Office through its functional channels:
+
+| Channel | Address |
+|---|---|
+| Email (general OSPO, governance, partnerships, CLA) | **opensource@gruposantander.com** |
+| Email (security vulnerabilities) | **security-opensource@gruposantander.com** |
+| GitHub | **@opensource-SantanderAI** |
+
+For repository-specific maintainer contacts, see each repository's `CODEOWNERS` file. For security disclosure procedure, follow [SECURITY.md](SECURITY.md) — never open a public issue for a vulnerability.

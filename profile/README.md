@@ -5,7 +5,6 @@
 
 <div align="center">
 
-  <img src="https://www.santander.com/content/dam/santander-com/en/logos/santander-logo.svg" alt="Santander" width="220"/>
 
   # SantanderAI
 
@@ -20,11 +19,11 @@
 
 ---
 
-## 🚀 Our mission
+## Our mission
 
-We build and open source AI tools that advance **fraud detection, responsible AI, MLOps and graph machine learning** for the financial services industry. By contributing back to the open source ecosystem we help raise the bar for trustworthy AI in banking — and we give back to the community whose work powers our own innovation.
+We build and open source AI tools that advance **small models, harness engineering, avolving agents, responsible AI, MLOps and graph machine learning** for the financial services industry. By contributing back to the open source ecosystem we help raise the bar for trustworthy AI in banking — and we give back to the community whose work powers our own innovation.
 
-## 📦 Featured projects
+## Featured projects
 
 | Project | Description | License | Status |
 |:---|:---|:---|:---|
@@ -33,7 +32,7 @@ We build and open source AI tools that advance **fraud detection, responsible AI
 
 > All projects use **synthetic or anonymised data only**. No real customer information is published.
 
-## 🏛️ Open source governance
+## Open source governance
 
 Our **Open Source Programme Office (OSPO)** runs a transparent **two-track review** for every project considered for public release:
 
@@ -42,7 +41,7 @@ Our **Open Source Programme Office (OSPO)** runs a transparent **two-track revie
 
 Full policy: [GOVERNANCE.md](https://github.com/SantanderAI/.github/blob/main/GOVERNANCE.md)
 
-## 🤝 Contributing
+## Contributing
 
 We welcome contributions from everyone. Please read:
 
@@ -51,7 +50,7 @@ We welcome contributions from everyone. Please read:
 - [`SECURITY.md`](https://github.com/SantanderAI/.github/blob/main/SECURITY.md) — responsible disclosure
 - All contributors agree to our Contributor License Agreement (CLA) on first PR
 
-## 📬 Contact
+## Contact
 
 - **General open source / partnerships:** [opensource@gruposantander.com](mailto:opensource@gruposantander.com)
 - **Security:** [security@santander.com](mailto:security@santander.com)

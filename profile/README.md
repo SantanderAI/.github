@@ -20,7 +20,7 @@
 
 ## Our mission
 
-We build and open source AI tools that advance **small models, harness engineering, avolving agents, responsible AI, MLOps and graph machine learning** for the financial services industry. By contributing back to the open source ecosystem we help raise the bar for trustworthy AI in banking — and we give back to the community whose work powers our own innovation.
+We build and open source AI tools that advance **small models, harness engineering, evolving agents, responsible AI, MLOps and graph machine learning** for the financial services industry. By contributing back to the open source ecosystem we help raise the bar for trustworthy AI in banking — and we give back to the community whose work powers our own innovation.
 
 ## Featured projects
 

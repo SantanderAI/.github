@@ -7,7 +7,7 @@
   
   # SantanderAI
 
-  **Open source artificial intelligence projects from Banco Santander**
+  **Open source artificial intelligence projects from Banco Santander AI Lab**
 
   [![Website](https://img.shields.io/badge/Website-santander.com-EC0000?style=flat-square)](https://www.santander.com)
   [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg?style=flat-square)](https://www.apache.org/licenses/LICENSE-2.0)

@@ -129,7 +129,7 @@ The roles defined in §2 are intentionally abstract — the same individual or t
 | Channel | Address |
 |---|---|
 | Email (general OSPO, governance, partnerships, CLA) | **opensource@gruposantander.com** |
-| Email (security vulnerabilities) | **security-opensource@gruposantander.com** |
+| Email (security vulnerabilities) | **opensource@gruposantander.com** |
 | GitHub | **@opensource-SantanderAI** |
 
 For repository-specific maintainer contacts, see each repository's `CODEOWNERS` file. For security disclosure procedure, follow [SECURITY.md](SECURITY.md) — never open a public issue for a vulnerability.

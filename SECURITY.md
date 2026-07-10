@@ -80,3 +80,13 @@ You can also obtain an up-to-date SBOM of any repository's default branch on dem
 
 - **UI**: repository → *Insights* → *Dependency graph* → *Export SBOM* (SPDX 2.3 JSON).
 - **API**: `GET https://api.github.com/repos/SantanderAI/<repo>/dependency-graph/sbom`
+
+### Provenance and integrity of published SBOMs
+
+SBOM release assets are stamped with `Organization: Santander Group` as document creator and carry a [build provenance attestation](https://docs.github.com/en/actions/security-for-github-actions/using-artifact-attestations) signed via Sigstore, binding each file to the exact repository, commit and workflow run that produced it. To verify a downloaded SBOM:
+
+```bash
+gh attestation verify <sbom-file> -R SantanderAI/<repo>
+```
+
+The verification fails if the file was modified after signing or was not produced by the repository's `sbom.yml` workflow.

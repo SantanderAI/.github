@@ -58,6 +58,28 @@ Every PR must pass the following before merge:
 
 Individual repositories may add or tighten these requirements.
 
+## Acceptable content policy
+
+Every contribution (code, documentation, data, issues, discussions) must comply with this policy. PRs that do not are rejected regardless of technical quality.
+
+**We accept only:**
+
+- **Original work or compatibly-licensed material** — you hold the rights (per the CLA) or the content carries a license compatible with the project's (attribution included).
+- **Synthetic or properly anonymised data** — datasets must document their origin and redistribution rights.
+
+**We never accept:**
+
+- **Secrets** — credentials, tokens, API keys, certificates (push protection and CI scanning will block them; if one slips through, report it via [SECURITY.md](SECURITY.md)).
+- **Personal data (PII)** — names, emails, employee IDs or customer data of any kind, beyond voluntary public attribution of the contributor.
+- **Real customer, transaction or production data** — including "anonymised" extracts of production datasets.
+- **Internal Santander references** — internal URLs, hostnames, IPs, mailboxes or project codenames.
+- **License-incompatible or unattributed third-party material** — code or data without redistribution rights.
+- **Malicious or offensive-security content** — malware, exploits, backdoors; vulnerability PoCs belong in private reports ([SECURITY.md](SECURITY.md)), not in PRs.
+- **Unverifiable binaries** — compiled blobs, pre-trained model weights or datasets without documented provenance and license.
+- Content that violates the [Code of Conduct](CODE_OF_CONDUCT.md).
+
+**Enforcement**: automated gates (secret scanning, pattern check, license check, CodeQL) plus maintainer review. Violations already merged are handled per [SECURITY.md](SECURITY.md), including history rewrite when secrets are involved.
+
 ## Contributor License Agreement (CLA)
 
 By submitting a pull request you agree to the terms of the SantanderAI Contributor License Agreement: <https://github.com/SantanderAI/cla/blob/main/CLA.md>

@@ -71,3 +71,12 @@ We follow a **coordinated disclosure** process. We ask that you:
 - Give us reasonable time to fix the vulnerability before public disclosure.
 - Do not exploit the vulnerability beyond what is necessary to demonstrate it.
 - Do not access or modify data that does not belong to you.
+
+## Software Bill of Materials (SBOM)
+
+Every release in this organization ships with its SBOM attached as release assets in the two standard formats: **SPDX JSON** and **CycloneDX JSON** (generated with [syft](https://github.com/anchore/syft) at release time by each repository's `sbom.yml` workflow).
+
+You can also obtain an up-to-date SBOM of any repository's default branch on demand:
+
+- **UI**: repository → *Insights* → *Dependency graph* → *Export SBOM* (SPDX 2.3 JSON).
+- **API**: `GET https://api.github.com/repos/SantanderAI/<repo>/dependency-graph/sbom`

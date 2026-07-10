@@ -66,6 +66,14 @@ We welcome contributions from everyone. Please read:
 - **Website:** [santander.com](https://www.santander.com)
 - **Careers in AI:** [santander.com/en/careers](https://www.santander.com/en/careers)
 
+## Disclaimer
+
+All projects in this organization are provided **"as is"** by the **Santander AI Lab** under their respective licenses, without warranties or conditions of any kind. They are **not official Banco Santander products or services**, carry no commitment of production support, and do not constitute financial, legal or professional advice.
+
+"Santander" and its logo are registered trademarks of **Banco Santander, S.A.** The project licenses do not grant any right to use them beyond factual attribution.
+
+If you believe you have found a security vulnerability, follow our [security policy](https://github.com/SantanderAI/.github/blob/main/SECURITY.md) — do not open a public issue. You are responsible for assessing the suitability of these projects for your use case and for keeping your own deployments up to date.
+
 ---
 
 <div align="center">
